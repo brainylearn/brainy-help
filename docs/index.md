@@ -41,4 +41,4 @@ Getting started with Brainy is simple:
 ## Need Help?
 
 ### Report Issues or Request Features
-Found a bug or have a feature idea? Visit the [GitHub Issues page](https://github.com/ramikw/brainy/issues/new) to report it.
+Found a bug or have a feature idea? Visit the [GitHub Issues page](https://github.com/brainylearn/brainy-app/issues/new) to report it.

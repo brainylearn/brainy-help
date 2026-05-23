@@ -30,10 +30,10 @@ study materials from lecture notes, textbooks, research papers, and more.
 
 ## Supported AI Providers
 
-Currently, Brainy supports **Ollama** as its AI provider, allowing you to run
-powerful language models locally on your own machine. This means your data stays
-private, and no internet connection is required for AI features. Support for
-additional providers is planned for future releases.
+Brainy supports two AI providers:
+
+- **Ollama** — run powerful language models locally on your own machine. Your data stays private and no internet connection is required.
+- **OpenAI** — connect using your OpenAI API key to use models like GPT-5.2-mini and other OpenAI-hosted models.
 
 ## Turning Off the AI Assistant
 

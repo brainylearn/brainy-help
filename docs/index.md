@@ -32,7 +32,7 @@ Getting started with Brainy is simple:
 - Click outside the cell to save it
 
 ### 3. Start Reviewing
-- Click the **Study** button in the sidebar
+- Click the **Study** button in the top bar of the editor
 - The **Reviewer** will open showing your cards
 - For each card, try to recall the answer before revealing it
 - Rate how difficult it was using the feedback buttons

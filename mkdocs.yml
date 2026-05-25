@@ -12,5 +12,6 @@ nav:
     - settings-and-data/settings.md
     - settings-and-data/cloud-sync.md
     - settings-and-data/automatic-backup.md
+    - settings-and-data/logs.md
 theme: 
   name: readthedocs

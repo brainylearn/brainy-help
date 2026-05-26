@@ -5,7 +5,7 @@ Brainy automatically creates regular backups of your entire database to protect 
 ## How Backups Work
 
 ### Backup Location
-- Backups are stored in the folder named after your username, inside your database directory
+- Backups are stored in a folder named `backups` inside the folder named after your username, inside your database directory
 - By default, the database directory is your app settings directory
 
 ### Backup Naming

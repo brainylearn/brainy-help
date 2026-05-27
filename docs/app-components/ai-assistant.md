@@ -22,6 +22,17 @@ Upload a file and the AI will read and analyze it for you. Ask it to summarize
 key concepts, explain difficult sections, or turn the content into a structured
 set of flashcards — all from within the chat popup.
 
+**Context-Aware Assistance**
+When you are in the editor or reviewer, the AI can see which card you are currently
+viewing and use it as context for your questions or requests. This makes it easy to
+ask follow-up questions about a specific card or generate related flashcards on the fly.
+
+**Aware of Your Files and Folders**
+The AI has visibility into your files and folders, so you can ask it to create
+flashcards directly inside a specific file. For example: *"Add 5 flashcards on
+photosynthesis to my Biology notes file"* — and Brainy will place them exactly where
+you want without any manual copying.
+
 ## Uploading Documents
 
 You can attach documents directly in the AI chat popup. Once uploaded, the AI

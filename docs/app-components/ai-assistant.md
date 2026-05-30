@@ -27,6 +27,11 @@ When you are in the editor or reviewer, the AI can see which card you are curren
 viewing and use it as context for your questions or requests. This makes it easy to
 ask follow-up questions about a specific card or generate related flashcards on the fly.
 
+**Edit the Current Highlighted Cell**
+The AI can directly edit the cell you currently have highlighted in the editor. Simply
+ask it to rewrite, improve, or update the content — and it will apply the changes
+in place without any manual copying.
+
 **Aware of Your Files and Folders**
 The AI has visibility into your files and folders, so you can ask it to create
 flashcards directly inside a specific file. For example: *"Add 5 flashcards on

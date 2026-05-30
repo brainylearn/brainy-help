@@ -51,8 +51,10 @@ When you select a cell (highlighted by a colored border), focus tools appear:
 ## Rich Text Editing
 
 Cell content areas feature a powerful text editor with:
+
 - **Text Formatting** — Bold, italic, underline, and more
 - **Image Insertion** — Embed images directly into your cards
+- **LaTeX** — Render math expressions by wrapping them in `$` signs (e.g. `$x_2$`)
 - **Formatting Menu** — Select text to access formatting options via a floating menu
 
 ### Cloze-Specific Formatting

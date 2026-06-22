@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Incremental Reading - Brainy Help</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Incremental Reading";
+        var mkdocs_page_input_path = "app-components/incremental-reading.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Brainy Help
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Getting Started</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">App Components</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../sidebar-and-navigation/">Sidebar &amp; Navigation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../home/">Home</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../editor/">Editor</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../search-and-find/">Search &amp; Find</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../reviewer/">Reviewer</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Incremental Reading</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-it-works">How It Works</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-add-an-incremental-reading-cell">1. Add an Incremental Reading Cell</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-read-and-highlight">2. Read and Highlight</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-finish-the-session">3. Finish the Session</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#extracts">Extracts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#on-the-home-screen">On the Home Screen</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../ai-assistant/">AI Assistant</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Settings & Data</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../settings-and-data/settings/">Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../settings-and-data/cloud-sync/">Cloud Sync</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../settings-and-data/automatic-backup/">Automatic Backups</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../settings-and-data/logs/">Logs</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Brainy Help</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">App Components</li>
+      <li class="breadcrumb-item active">Incremental Reading</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="incremental-reading">Incremental Reading</h1>
+<p><strong>Incremental Reading</strong> lets you work through long-form source material a little
+at a time, capturing the most important parts as you go and gradually turning them
+into study cards. Instead of reading an article in one sitting, you read it across
+multiple sessions on a spaced schedule — keeping the most valuable material in
+front of you while letting the rest wait.</p>
+<h2 id="how-it-works">How It Works</h2>
+<h3 id="1-add-an-incremental-reading-cell">1. Add an Incremental Reading Cell</h3>
+<p>Create a new cell and choose <strong>Incremental Reading</strong> as the cell type, then import
+a source. For now, <strong>websites</strong> are the supported source type — paste the URL of
+the page you want to read and Brainy will load its content into the cell.</p>
+<h3 id="2-read-and-highlight">2. Read and Highlight</h3>
+<p>Work through the imported source and highlight the most important passages as you
+read. Each highlight is saved as an <strong>extract</strong> — a snippet of source material set
+aside for later processing.</p>
+<p>Select the text you want to keep and use the highlight shortcut:</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + Shift + H</code> / <code>Cmd + Shift + H</code></td>
+<td>Highlight the selected text</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-finish-the-session">3. Finish the Session</h3>
+<p>When you are done reading for now, you can:</p>
+<ul>
+<li><strong>Schedule for Later</strong> — set the reading to come back on a future date so you can
+  continue where you left off in a later session</li>
+<li><strong>Mark as Done</strong> — finish the source when you have read everything you need</li>
+<li><strong>Exit</strong> — leave the session without changing its schedule</li>
+</ul>
+<h2 id="extracts">Extracts</h2>
+<p>Every passage you highlight becomes an <strong>extract</strong>. Extracts are the bridge between
+raw source material and finished study cards:</p>
+<ul>
+<li>Go through your extracts one at a time and turn each into a <strong>Cloze</strong> cell</li>
+<li>Use <strong>AI support</strong> to convert an extract into a cloze automatically — Brainy reads
+  the extract and produces a ready-to-study cloze deletion for you to keep or refine</li>
+</ul>
+<p>See the <a href="../editor/">Editor</a> for more on cloze cells, and the
+<a href="../ai-assistant/">AI Assistant</a> for more on AI-powered card generation.</p>
+<h2 id="on-the-home-screen">On the Home Screen</h2>
+<p>The <a href="../home/">Home</a> dashboard surfaces incremental reading work that needs your
+attention through two lists:</p>
+<ul>
+<li><strong>Incremental Reading Queue</strong> — sources that have passed their due date, ordered by
+  <strong>priority</strong> so the most important reading comes first</li>
+<li><strong>Pending Extracts</strong> — highlighted extracts that still need to be turned into
+  cloze cells</li>
+</ul>
+<p>This keeps both halves of the workflow — reading and card creation — visible so
+nothing you have set aside gets forgotten.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../reviewer/" class="btn btn-neutral float-left" title="Reviewer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ai-assistant/" class="btn btn-neutral float-right" title="AI Assistant">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../reviewer/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ai-assistant/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

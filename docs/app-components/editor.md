@@ -36,6 +36,12 @@ Non-reviewed text for organization and reference. Use for:
 
 **Note:** Notes appear in the editor but are skipped during review sessions.
 
+### Incremental Reading
+Import a long source (currently websites) and read it across multiple spaced
+sessions, highlighting the most important passages as you go. Each highlight becomes
+an extract you can turn into a cloze cell. See [Incremental Reading](incremental-reading.md)
+for the full workflow.
+
 ## Cell Controls (Focus Tools)
 
 When you select a cell (highlighted by a colored border), focus tools appear:

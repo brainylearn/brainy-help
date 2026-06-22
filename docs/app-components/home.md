@@ -16,6 +16,16 @@ overview of your study progress and statistics.
 ### Quick Review
 Click on any file or folder to load all its cards into the reviewer and start studying immediately.
 
+## Incremental Reading
+
+The Home view also tracks your [Incremental Reading](incremental-reading.md) workflow
+with two lists:
+
+- **Incremental Reading Queue** — sources that have passed their due date, ordered by
+  priority so the most important reading comes first
+- **Pending Extracts** — highlighted extracts that still need to be turned into
+  cloze cells
+
 ## Study Statistics
 
 ### Heatmap

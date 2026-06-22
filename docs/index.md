@@ -8,6 +8,7 @@ Brainy is an open-source, AI-integrated learning app built around spaced repetit
 - **📁 Structured Organization** — Manage and access study materials with intuitive folder hierarchies
 - **🧠 Spaced Repetition** — Retain knowledge effectively using the FSRS (Free Spaced Repetition Scheduler) algorithm with fully customizable parameters
 - **🎯 Multiple Study Modes** — Engage with flashcards, cloze deletions, true/false questions, and more
+- **📖 Incremental Reading** — Read long sources like websites across multiple spaced sessions, highlight the most important passages, and turn those extracts into study cards (with AI assistance)
 - 🤖 **AI-Powered Study Materials** — Instantly generate flashcards, using AI. Upload PDFs, documents,
 or notes and let Brainy create a flashcards for you — or ask questions directly
 about your uploaded content to deepen your understanding
